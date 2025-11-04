@@ -1,0 +1,104 @@
+.body{
+
+    background: #000000;
+
+}
+
+
+.header{
+
+    position: sticky;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 50px;
+    justify-content: space-between;
+
+}
+
+.link{
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.page-1{
+
+    justify-content: space-between;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    margin: 50px;
+    flex-wrap: nowrap;
+
+}
+
+.photo img{
+
+    height: 400px;
+    background: #99191d;
+    width: 400px;
+    border-radius: 230px;
+    box-shadow: -6px 2px 49px 11px rgba(102, 10, 10, 0.78);
+    -webkit-box-shadow: -6px 2px 49px 11px rgba(102, 10, 10, 0.78);
+    -moz-box-shadow: -6px 2px 49px 11px rgba(102,10,10,0.78);
+
+}
+
+.description{
+
+    width: 600px;
+    height: auto;
+    background: #99191d;
+    color: white;
+    padding: 15px;
+    box-shadow: 14px 19px 22px -13px rgba(102, 10, 10, 0.77);
+    -webkit-box-shadow: 14px 19px 22px -13px rgba(102, 10, 10, 0.77);
+    -moz-box-shadow: 14px 19px 22px -13px rgba(102,10,10,0.77);
+    border-radius: 20px;
+    
+
+}
+
+.description::-webkit-scrollbar{
+
+    display: none;
+
+}
+
+.social{
+
+display: flex;
+gap: 10px;
+
+}
+
+.social a img{
+
+height: 30px;
+width: 30px;
+}
+
+
+
+.description h3{
+
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+.description h2{
+
+    font-family: fantasy;
+
+}
+
+.description h2 span{
+
+    color: #000000;
+
+}
